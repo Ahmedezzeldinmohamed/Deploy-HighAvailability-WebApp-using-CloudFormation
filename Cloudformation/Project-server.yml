@@ -67,7 +67,7 @@ Resources:
           apt-get install apache2 -y
           systemctl start apache2.service 
           cd /var/www/html 
-          echo "Udagram-Ezz" > index.html 
+           echo "it works udagram udacity" > index.html  
           aws s3 cp s3://project2-810246799369-aws/Udagram.zip .
           unzip -o Udagram.zip
       ImageId: ami-0ac80df6eff0e70b5  # This ubuntu AMI value will be needed to be changed in the future 
